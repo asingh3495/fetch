@@ -1,0 +1,24 @@
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+  method: POST
+  name: sample body up
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+- body: '{"animal":"cat"}'
+  headers:
+    content-type: application/json
+  method: POST
+  name: sample index up
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+- body: "{"bird":"sparrow"}"
+  headers:
+    content-type: application/json
+  method: POST
+  name: sample body down
+  url: https://dev-sre-take-home-exercise-rubric.us-west-2.recruiting-public.fetchrewards.com/body
+- body: "{"tree":"pine"}"
+  headers:
+    content-type: application/json
+  method: POST 
+  name: sample error down
+  url: https://dev-sre-take-home-exercise-rubric.us-west-1.recruiting-public.fetchrewards.com/error
