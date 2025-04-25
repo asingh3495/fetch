@@ -25,11 +25,11 @@ C)  monitor_endpoints # To do the cummulative caculation for the URL being UP or
         Calculate the percentage of the availability
         Sleep for 15 sec and retry again
 
-MAIN Function:
+**MAIN** Function:
         Starts the execution of the above functions and aborts on Keyboard Interrupt
 
 
-Execute the script using command:
+**Execute the script using command:**
 python fetch_method_main.py sample.yaml
 
 
